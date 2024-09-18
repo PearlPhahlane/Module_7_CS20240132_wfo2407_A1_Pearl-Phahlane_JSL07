@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const modal = document.getElementById('modal');
     const certificateContent = document.getElementById('certificateContent');
     const closeModal = document.querySelector('.close');
+    const generateButton = document.getElementById('generateCertificate');
   
     // Hide the modal initially
     modal.style.display = 'none';
