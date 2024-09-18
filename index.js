@@ -3,13 +3,17 @@ document.addEventListener('DOMContentLoaded', function () {
     const modal = document.getElementById('modal');
     const certificateContent = document.getElementById('certificateContent');
     const closeModal = document.querySelector('.close');
-    const generateButton = document.getElementById('generateCertificate');
+    const generateButton = document.getElementById('generateCertificate'); //add to select generate certificate button
   
     // Hide the modal initially
     modal.style.display = 'none';
   
-    cardForm.addEventListener('submit', function (e) {
-      e.preventDefault();
+    //cardForm.addEventListener('submit', function (e) {
+    //  e.preventDefault();
+
+    generateButton.addEventListener("click", fuction(submission) {
+        submission.preventDefault();
+    
   
       // 🚨 Get input values
       const studentNameInput = document.getElementById('studentName');
