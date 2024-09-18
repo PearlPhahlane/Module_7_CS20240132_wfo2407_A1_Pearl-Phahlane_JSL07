@@ -31,6 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
   
       // 🚨 Generate certificate content dynamically
       certificateContent.innerHTML = `
+      <div style="text-align: center;">
       <h1>Certificate of Achievement</h1>
       <p>This is to certify that</p>
       <h3>${studentName}</h3>
@@ -39,6 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
       <p>with legendary perseverance and world-class bad-assery for never giving up \u{1F3C6}</p>
       <img src="logo.png" alt="CodeSpace logo" style="max-width: 320px; margin-bottom: 20px;">
       <p>${personalMessage}</p>
+      </div>
     `; // P: add contents using html tags for innerhtml and a unicode for the trophe
     
       //  Display the modal
