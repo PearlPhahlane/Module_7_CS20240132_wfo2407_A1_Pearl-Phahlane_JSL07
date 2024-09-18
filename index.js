@@ -31,14 +31,15 @@ document.addEventListener('DOMContentLoaded', function () {
   
       // 🚨 Generate certificate content dynamically
       certificateContent.innerHTML = `
-      <h2>This is to certify that</h2>
+      <h1>Certificate of Achievement</h1>
+      <p>This is to certify that</p>
       <h3>${studentName}</h3>
       <p>has almost completed the</p>
-      <h4>${courseName}</h4>
+      <h4>${courseName} Course</h4>
       <p>with legendary perseverance and world-class bad-assery for never giving up \u{1F3C6}</p>
-      <img src="logo.png" alt="CodeSpace logo" style="max-width: 200px; margin-bottom: 20px;">
+      <img src="logo.png" alt="CodeSpace logo" style="max-width: 320px; margin-bottom: 20px;">
       <p>${personalMessage}</p>
-    `; // P: add contents using html tags for innerhtml
+    `; // P: add contents using html tags for innerhtml and a unicode for the trophe
     
       //  Display the modal
       modal.style.display = 'block';
