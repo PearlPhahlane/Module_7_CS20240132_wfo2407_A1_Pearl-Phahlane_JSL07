@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
     //cardForm.addEventListener('submit', function (e) {
     //  e.preventDefault();
 
-    generateButton.addEventListener("click", fuction(submission) {
+    generateButton.addEventListener("click", function(submission) {
         submission.preventDefault();
     
   
