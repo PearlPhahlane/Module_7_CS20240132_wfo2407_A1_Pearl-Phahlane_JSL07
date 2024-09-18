@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function () {
       <img src="logo.png" alt="CodeSpace logo" style="max-width: 320px; margin-bottom: 20px;">
       <p>${personalMessage}</p>
       </div>
-    `; // P: add contents using html tags for innerhtml and a unicode for the trophe
+    `; // P: add contents using html tags for innerhtml and a unicode for the trophy
     
       //  Display the modal
       modal.style.display = 'block';
