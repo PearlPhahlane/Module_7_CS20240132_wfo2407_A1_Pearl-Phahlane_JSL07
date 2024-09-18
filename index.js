@@ -27,11 +27,17 @@ document.addEventListener('DOMContentLoaded', function () {
       if (studentName.trim() === '' || personalMessage.trim() === '' || courseName.trim() === '') {
         alert('Please fill in all fields');
         return;
-      }
+      } // P: show alert message if no course name is entered :D
   
       // 🚨 Generate certificate content dynamically
-      certificateContent. = `
+      certificateContent.innerHTML = `
+      <h2>This is to certify that</h2>
       <h3>${studentName}</h3>
+      <p>has almost completed the</p>
+      <h4>${courseName}</h4>
+      <p>with legendary perseverance and world-class bad-assery for never giving up \u{1F3C6}</p>
+      <img src="logo.png" alt="CodeSpace logo" style="max-width: 200px; margin-bottom: 20px;">
+      <p>${personalMessage}</p>
     `;
     
       //  Display the modal
