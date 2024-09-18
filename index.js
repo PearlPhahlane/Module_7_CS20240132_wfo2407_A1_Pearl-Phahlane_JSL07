@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function () {
       <p>with legendary perseverance and world-class bad-assery for never giving up \u{1F3C6}</p>
       <img src="logo.png" alt="CodeSpace logo" style="max-width: 200px; margin-bottom: 20px;">
       <p>${personalMessage}</p>
-    `;
+    `; // P: add contents using html tags for innerhtml
     
       //  Display the modal
       modal.style.display = 'block';
@@ -50,8 +50,8 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   
     //  🚨 Close the modal when the close button is clicked
-    closeModal.('', function () {
-      
+    closeModal.addEventListener('click', function () {
+      modal.style.display = 'none';
     });
   });
   
